@@ -42,7 +42,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #f26d21;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -151,6 +151,7 @@ a:focus {
     -o-background-size: cover;
 }
 
+.intro a{color: white;text-decoration: underline;}
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -258,9 +259,9 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    color: #000;
+    /*background: url(../img/stick.png) no-repeat center center scroll;*/
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -373,3 +374,4 @@ border-radius: 20px;
   font-size: 1.5em;
   padding: 2em;
 }
+.orange {background-color: #f26d21;}
